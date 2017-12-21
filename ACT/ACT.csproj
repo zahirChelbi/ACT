@@ -139,6 +139,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClientApp\app\components\about\about.component.css" />
+    <Content Include="ClientApp\app\components\about\about.component.html" />
     <Content Include="ClientApp\app\components\app\app.component.css" />
     <Content Include="ClientApp\app\components\app\app.component.html" />
     <Content Include="ClientApp\app\components\home\home.component.css" />
@@ -223,6 +225,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\app\app.module.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\about\about.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\app\app.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\home\home.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\navmenu\navmenu.component.ts" />
