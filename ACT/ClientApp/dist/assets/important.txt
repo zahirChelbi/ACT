@@ -1,0 +1,25 @@
+ Configuration de visual studio :
+a- installer NPM task runner.
+b- allez dans Outils -> Options -> Projets et solutions -> Outils Web externes, et déplacez l'entrée $ (PATH) à la deuxième position dans la liste.
+
+1- Ajouter a .csproj
+  <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+  <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+
+
+2- Modifier _Layout.cshtml
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+        <base href = "/" /> 
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src = "https://code.jquery.com/jquery-3.2.1.min.js"  crossorigin = "anonymous"></script>
+        <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  crossorigin = "anonymous" ></script>
+    </head>
+
+
+3-Modifer Index.cshtml
+
+    <app>Loading...</app>
+    <script type = "text/javascript" src="~/ClientApp/dist/ng-application.js"></script>

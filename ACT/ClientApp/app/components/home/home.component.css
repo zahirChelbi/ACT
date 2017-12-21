@@ -1,0 +1,117 @@
+﻿.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 111px 0;
+  text-align: center;
+  color: white;
+  background: url("../../../assets/t.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; 
+  }
+
+ .mx-auto {
+    background-color: #00000094;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #42DCA3; 
+}
+  a:focus, a:hover {
+      text-decoration: none;
+      color: #1d9b6c;
+  }
+  
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; 
+}
+  .btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1); 
+  }
+
+.content-section {
+  padding-top: 150px;
+  padding-bottom: 150px; 
+}
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0; 
+}
+.btn-default {
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
+  border-radius: 30px;
+  background-color: transparent; 
+}
+  .btn-default:focus, .btn-default:hover {
+    color: black;
+    border: 1px solid #42DCA3;
+    outline: none;
+    background-color: #42DCA3; 
+  }
+
+footer {
+  padding: 50px 0; 
+}
+
+
+
+@media (max-width: 767px) {
+    .masthead {
+    height: 100%;
+    padding-top:50px;
+  }
+  li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0; 
+  }
+    li:last-child {
+      margin-bottom: 0; 
+    } 
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .content-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  } 
+}

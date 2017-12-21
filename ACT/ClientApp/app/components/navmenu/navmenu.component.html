@@ -1,0 +1,34 @@
+﻿<!--<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type = "button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand  navbar-brand-left" [routerLink]="['home']">App</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+           
+        </div>
+    </div>
+</nav>-->
+  <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" id="mainNav" [ngClass]= "{'page-scroll-header': isScrolled}">
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-header navbar-brand js-scroll-trigger" href="#page-top">ACT</a>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li [routerLinkActive]="['link-active']"><a [routerLink]="['/about']"><span class="fa fa-users sr-only"></span>About</a></li>
+                <li [routerLinkActive]="['link-active']"><a [routerLink]="['/blog']"><span class="fa fa-users sr-only"></span>Blog</a></li>
+                <li [routerLinkActive]="['link-active']"><a [routerLink]="['/home']"><span class="glyphicon glyphicon-duplicate sr-only"></span>Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
